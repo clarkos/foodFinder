@@ -1,0 +1,107 @@
+.ff__menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.ff__menu-components {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ff__menu-filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 1rem;
+}
+
+.ff__menu-filter_field {
+  display: block;
+}
+
+.ff__menu-filter p {
+  font-weight: 800;
+  margin: 0 5px;
+}
+
+.ff__menu-filter button {
+  margin: 0 5px;
+}
+
+.ff__menu-filter_diets-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.ff__menu-filter_diets {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  padding: 10px;
+  border: 2px solid #6ea230;
+  border-radius: 10px;
+}
+
+.ff__menu-filter_dietBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.ff__menu-filter_origBtn button,
+.ff__menu-filter_dietBtn button {
+  margin: 5px;
+  line-height: 15px;
+  padding: 5px 10px;
+}
+
+.ff__menu-filter_origBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.ff__menu-filter_origBtn p {
+  font-weight: 800;
+  margin: 0 5px;
+}
+
+button {
+  font-size: 12px;
+  padding: 2px 10px;
+}
+
+.ff__menu-filter_results {
+  margin-top:10px;
+  font-weight: 800;
+}
+@media screen and (max-width:950px){
+  .ff__menu-filter_diets {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .ff__menu-components {
+    flex-direction: column;
+  }
+
+}

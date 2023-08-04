@@ -1,0 +1,15 @@
+.ff__pag-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.ff__pag-active {
+  background-color: #801e08;
+}
+
+.ff__pag-btn button {
+margin: 0 2px;
+}
